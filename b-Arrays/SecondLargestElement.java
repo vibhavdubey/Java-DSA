@@ -1,6 +1,7 @@
 package Arrays;
 
 public class SecondLargestElement {
+
     public static int secondLargestElement(int[] arr) {
         int max1, max2;
         max1 = max2 = Integer.MIN_VALUE;

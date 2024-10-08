@@ -16,15 +16,14 @@ public class FactorialUsingRecursion {
     }
 
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number : ");
-        int num= sc.nextInt();
+        int num = sc.nextInt();
         int result = factorial(num);
 
         if (result != -1) {
             System.out.println("Factorial of " + num + " is : " + result);
         }
-
 
     }
 

@@ -1,6 +1,7 @@
 package Basic_Java.Method;
 
 public class MethodDemo {
+
     public static int addTwoNumber(int num1, int num2) {
         int result = num1 + num2;
         return result;
@@ -84,7 +85,7 @@ public class MethodDemo {
             pow++;
             n = n / 2;
         }
-        System.out.println("Binary Number = "+binNumber);
+        System.out.println("Binary Number = " + binNumber);
     }
 
     public static void main(String[] args) {

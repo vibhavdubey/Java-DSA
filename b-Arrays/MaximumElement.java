@@ -1,6 +1,7 @@
 package Arrays;
 
 public class MaximumElement {
+
     public static int maxElementInArray(int[] arr) {
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < arr.length; i++) {
@@ -10,6 +11,7 @@ public class MaximumElement {
         }
         return max;
     }
+
     public static void main(String[] args) {
         int[] arr = {3, 5, 4, 7, 6, 8, 10, 13, 2};
         int result = maxElementInArray(arr);

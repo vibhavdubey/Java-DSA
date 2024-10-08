@@ -3,6 +3,7 @@ package Basic_Java.ConditionalStatement;
 import java.util.Scanner;
 
 public class CheckLeapYear {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the year to check leap year : ");
@@ -31,8 +32,6 @@ public class CheckLeapYear {
 //        } else {
 //                System.out.println(year + " is not a leap year.");
 //        }
-
-
 //---------------------------------------------------------------------------------
 //boolean isDivisibleBy4 = (year % 4) == 0;
 //boolean isNotDivisibleBy100 = (year % 100) != 0;

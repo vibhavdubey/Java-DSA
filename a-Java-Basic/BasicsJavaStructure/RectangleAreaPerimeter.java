@@ -3,6 +3,7 @@ package Basic_Java.BasicsJavaStructure;
 import java.util.Scanner;
 
 public class RectangleAreaPerimeter {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

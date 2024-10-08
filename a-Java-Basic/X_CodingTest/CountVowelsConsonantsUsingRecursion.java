@@ -3,6 +3,7 @@ package Basic_Java.X_CodingTest;
 import java.util.Scanner;
 
 public class CountVowelsConsonantsUsingRecursion {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your string: ");
@@ -34,13 +35,12 @@ public class CountVowelsConsonantsUsingRecursion {
     }
 
     public static boolean isVowel(char ch) {
-        return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
-                ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U';
+        return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'
+                || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U';
     }
 }
 
 //----------------------------------------------------------------------------------------------------------------------
-
 class VowelConsonantCounter {
 
 //    public static void main(String[] args) {
@@ -50,7 +50,6 @@ class VowelConsonantCounter {
 //        System.out.println("Vowels: " + counts[0]);
 //        System.out.println("Consonants: " + counts[1]);
 //    }
-
     public static int[] countVowelsAndConsonants(String input) {
         // Initialize counts for vowels and consonants
         int[] counts = new int[2];
@@ -87,4 +86,3 @@ class VowelConsonantCounter {
         return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
     }
 }
-

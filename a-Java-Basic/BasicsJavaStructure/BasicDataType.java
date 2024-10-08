@@ -3,6 +3,7 @@ package Basic_Java.BasicsJavaStructure;
 import java.util.Scanner;
 
 public class BasicDataType {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -52,7 +53,6 @@ public class BasicDataType {
 
         System.out.println("Enter a string : ");
         String str3 = sc.nextLine();    // it will take full sentence.
-
 
         System.out.println("Outputs are -\nbyte : " + num1 + "\nshort : " + num2 + "\nint : " + num3 + "\nlong : " + num4 + "\nfloat : " + num5 + "\ndouble : " + num6 + "\nchar : " + ch1 + "\nString : " + str2 + "\nString : " + str3 + "\nboolean : " + bool);
     }

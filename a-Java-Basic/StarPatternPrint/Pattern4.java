@@ -3,6 +3,7 @@ package Basic_Java.StarPatternPrint;
 import java.util.Scanner;
 
 public class Pattern4 {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the no. of line you want to print : ");
@@ -18,8 +19,6 @@ public class Pattern4 {
         }
     }
 }
-
-
 
 //        A
 //        BC

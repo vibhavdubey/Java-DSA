@@ -6,6 +6,7 @@ package Basic_Java.ConditionalStatement;
 import java.util.Scanner;
 
 public class IncomeTaxCalculator {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your salary : ");

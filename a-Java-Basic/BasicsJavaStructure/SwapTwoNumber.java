@@ -1,6 +1,7 @@
 package Basic_Java.BasicsJavaStructure;
 
 public class SwapTwoNumber {
+
     public static void main(String[] args) {
         //swap of two number using third variable.
 //        int a=4,b=6;
